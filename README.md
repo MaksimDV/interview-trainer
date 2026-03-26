@@ -15,3 +15,14 @@ It allows users to answer multiple-choice questions, get scored, and track progr
 - **Database:** PostgreSQL
 - **Frontend:** minimal (React or Thymeleaf)
 - **Documentation:** Markdown files in `docs/`
+
+## Planning & Specs
+- Backlog / task list: `docs/backlog.md`
+- Roadmap (high-level): `docs/roadmap.md`
+- Architecture overview: `docs/architecture.md`
+- Data model: `docs/data-model.md`
+- API spec: `docs/api.md`
+- AI prompt templates: `docs/prompts.md`
+
+## Seed data
+- Sample questions seed: `data/seed/questions.sample.json`

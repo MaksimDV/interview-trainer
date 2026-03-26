@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "topics": [
+    { "slug": "java", "name": "Java" },
+    { "slug": "sql", "name": "SQL" }
+  ],
+  "questions": [
+    {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "topicSlug": "java",
+      "prompt": "Which keyword is used to inherit a class in Java?",
+      "rubric": "Correct answer is the Java keyword for inheritance.",
+      "options": [
+        { "id": "00000000-0000-0000-0000-000000000011", "text": "implements", "isCorrect": false },
+        { "id": "00000000-0000-0000-0000-000000000012", "text": "extends", "isCorrect": true },
+        { "id": "00000000-0000-0000-0000-000000000013", "text": "in", "isCorrect": false },
+        { "id": "00000000-0000-0000-0000-000000000014", "text": "inherit", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000002",
+      "topicSlug": "java",
+      "prompt": "Which HTTP method is considered idempotent?",
+      "rubric": "Choose a method that can be repeated without changing the result beyond the initial application.",
+      "options": [
+        { "id": "00000000-0000-0000-0000-000000000021", "text": "POST", "isCorrect": false },
+        { "id": "00000000-0000-0000-0000-000000000022", "text": "PUT", "isCorrect": true },
+        { "id": "00000000-0000-0000-0000-000000000023", "text": "PATCH", "isCorrect": false },
+        { "id": "00000000-0000-0000-0000-000000000024", "text": "GET", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000003",
+      "topicSlug": "sql",
+      "prompt": "Which SQL clause filters rows in a SELECT query?",
+      "rubric": "The filtering clause is applied to rows from the FROM clause.",
+      "options": [
+        { "id": "00000000-0000-0000-0000-000000000031", "text": "HAVING", "isCorrect": false },
+        { "id": "00000000-0000-0000-0000-000000000032", "text": "WHERE", "isCorrect": true },
+        { "id": "00000000-0000-0000-0000-000000000033", "text": "GROUP BY", "isCorrect": false },
+        { "id": "00000000-0000-0000-0000-000000000034", "text": "ORDER BY", "isCorrect": false }
+      ]
+    }
+  ]
+}
+

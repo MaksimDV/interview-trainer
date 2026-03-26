@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+
+# IDE (IntelliJ)
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Build outputs
+target/
+build/
+
+# Environment
+.env
